@@ -34,6 +34,7 @@ TEST(KVStorageTest, InitializationTest) {
     EXPECT_EQ("val4", data.get("e"));
 }
 
+
 // получение данных созданных set в тот же момент времени 
 TEST(KVStorageTest, setTest) {
     KVStorage<MyClock> data({});
